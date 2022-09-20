@@ -24,7 +24,7 @@ void setup() {
 }
 
 void face() {
-  strokeWeight(2);
+  strokeWeight(3);
   fill(127, 199, 180);
   ellipse(245, 390, 400, 300);
   fill(237, 171, 135);
@@ -45,6 +45,7 @@ void face() {
   stroke(0,0,0);
   line(200,200-50,245,240-50);
   line(245,240-50, 290,210-50);
+    strokeWeight(2);
 }
 
 
